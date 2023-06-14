@@ -1,4 +1,78 @@
-footer{
-    color: red;
-    text-align: center;
+.header {
+    display: flex;
+    background: #1F2937;
+    height:40px; 
+    color: #F9FAF8;
 }
+
+.header .logo{
+    font-size: 24px;
+    font-style: bold;
+    padding: 10px;
+}
+
+.header .link{
+    display: flex;
+    justify-content: right;
+}
+
+.header .link div{
+    padding: 25px;
+}
+
+.footer{
+    display: flex;
+    color: red;
+    justify-content: center;
+    background: #1F2937;
+    height: 40px;
+}
+
+.hero{
+    display: flex;
+    height: 100px;
+    background: #1F2937;
+    padding-top: 20px;
+    color: #F9FAF8;
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-right{
+    padding: 10px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+}
+
+.information-blocks{
+    display: flex;
+    justify-content: center;
+}
+
+.information-header{
+    display: flex;
+    font: 36px #1F2937;
+    justify-content: center;
+    font-style: bold;
+}
+
+.quote{
+    background: #E5E7EB;
+    font: 36px ligt italic #1f2937;
+    height: 100px;
+    display: flex;
+}
+
+.banner-bottom{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+
