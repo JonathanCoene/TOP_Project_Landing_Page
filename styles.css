@@ -34,6 +34,7 @@
     background: #1F2937;
     padding-top: 20px;
     color: #F9FAF8;
+    justify-content: space-between;
 }
 
 .hero-left{
@@ -53,14 +54,16 @@
 
 .information-blocks{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .information-header{
     display: flex;
-    font: 36px #1F2937;
+    color: #1F2937;
+    font-size: 36px;
     justify-content: center;
-    font-style: bold;
+    font-weight: bold;
+    height: 50px;
 }
 
 .quote{
@@ -68,6 +71,9 @@
     font: 36px ligt italic #1f2937;
     height: 100px;
     display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 .banner-bottom{
