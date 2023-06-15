@@ -9,11 +9,14 @@
     font-size: 24px;
     font-style: bold;
     padding: 10px;
+    align-items: center;
 }
 
 .header .link{
     display: flex;
     justify-content: right;
+    gap: 10px;
+    align-items: center;
 }
 
 .header .link div{
@@ -28,6 +31,11 @@
     height: 40px;
 }
 
+.button{
+    color: white;
+    background: blue;
+    font-style: bold;
+}
 .hero{
     display: flex;
     height: 100px;
@@ -35,6 +43,7 @@
     padding-top: 20px;
     color: #F9FAF8;
     justify-content: space-between;
+    margin: 0px;
 }
 
 .hero-left{
@@ -44,6 +53,11 @@
 
 .hero-right{
     padding: 10px;
+}
+
+.hero-title{
+    font-style: bold;
+    font-size: 36px;
 }
 .information{
     display: flex;
