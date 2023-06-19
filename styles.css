@@ -5,21 +5,26 @@
     color: #F9FAF8;
 }
 
-.header .logo{
+.header-logo{
+    display: flex;
     font-size: 24px;
     font-style: bold;
+    text-transform: uppercase;
     padding: 10px;
     align-items: center;
 }
 
-.header .link{
+.header-link{
     display: flex;
-    justify-content: right;
+    flex: 1;
+    font-style: bold;
+    text-transform: uppercase;
+    justify-content: end;
     gap: 10px;
     align-items: center;
 }
 
-.header .link div{
+.header-link div{
     padding: 25px;
 }
 
@@ -32,9 +37,18 @@
 }
 
 .button{
+    display: flex;
+    flex: 0 1 auto;
     color: white;
     background: blue;
     font-style: bold;
+    width: 75px;
+    height: 20px;
+    border-color: whitesmoke;
+    border-width: 3px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
 }
 .hero{
     display: flex;
@@ -69,8 +83,12 @@
 .information-blocks{
     display: flex;
     justify-content: space-evenly;
-}
+    }
 
+.block{
+    display: flex;
+    flex-wrap: wrap;
+}
 .information-header{
     display: flex;
     color: #1F2937;
@@ -80,6 +98,12 @@
     height: 50px;
 }
 
+.content-image{
+    border: 3px;
+    border-color: brown;
+    width: 25px;
+    height: 25px;
+}
 .quote{
     background: #E5E7EB;
     font: 36px ligt italic #1f2937;
