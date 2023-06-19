@@ -9,20 +9,7 @@
 .bold{
     font-weight: bold;
 }
-.button{
-    display: flex;
-    flex: 0 1 auto;
-    color: white;
-    background: blue;
-    font-style: bold;
-    width: 75px;
-    height: 20px;
-    border-color: whitesmoke;
-    border-width: 3px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-}
+
 
 /*Header Section*/
 
@@ -80,6 +67,9 @@
     flex-direction: column;
 }
 
+.hero-left div{
+    margin: 5px;
+}
 .hero-left-body{
     font: white;
 }
@@ -96,7 +86,26 @@
     font-style: bold;
     font-size: 36px;
 }
+.hero-button{
+    display: flex;
+    flex: 0 1 auto;
+    color: white;
+    background: blue;
+    font-style: bold;
+    width: 75px;
+    height: 20px;
+    border-color: whitesmoke;
+    border-width: 3px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 2px;
+}
 
+.hero-button :hover{
+    color: darkblue;
+    font-weight: bold;
+}
 
 /* Information Section */
 
@@ -159,6 +168,7 @@
 
 .quote-speaker{
     font-size: 25px;
+    font-weight: bold;
 }
 
 
@@ -171,12 +181,37 @@
     height: 100px;
     justify-content: center;
 }
+
 .call-to-action-block{
-    background: #3882F6;
+    display: flex;
+    background: blue;
     color: #F9FAF8;
     padding-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    height: 50px;
 }
 
+.banner-column-left{
+    display: flex;
+    flex-direction: column;
+    flex: auto; 
+}
+
+.banner_colum-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-button{
+    display: flex;
+    color:#E5E7EB;
+    background: blue;
+    justify-content: center;
+    align-items: centers;
+}
 
 /* Footer section */
 
