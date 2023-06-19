@@ -1,4 +1,4 @@
-/* general purpose*/
+/* general purpose */
 
 .margin-left{
     margin-left: 15%;
@@ -11,7 +11,7 @@
 }
 
 
-/*Header Section*/
+/* Header Section */
 
 .header{
     display: flex;
@@ -48,8 +48,7 @@
 }
 
 
-/* Hero section*/
-
+/* Hero section */
 
 .hero{
     display: flex;
@@ -73,6 +72,10 @@
 .hero-left-body{
     font: white;
 }
+.hero-left-title{
+    font-style: bold;
+    font-size: 36px;
+}
 .hero-right{
     display: flex;
     flex: 0 1 auto;
@@ -82,10 +85,6 @@
     align-items: center;
 }
 
-.hero-left-title{
-    font-style: bold;
-    font-size: 36px;
-}
 .hero-button{
     display: flex;
     flex: 0 1 auto;
@@ -105,6 +104,7 @@
 .hero-button :hover{
     color: darkblue;
     font-weight: bold;
+    background: lightblue;
 }
 
 /* Information Section */
@@ -113,7 +113,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 200px;
+    height: 300px;
 }
 
 .information-header{
@@ -128,27 +128,33 @@
 
 .information-blocks{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .content-block{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    background: green;
 }
 
 .block-image{
     display: flex;
-    border: 3px;
-    border-color: brown;
-    width: 25px;
-    height: 25px;
-    border-radius: 10px;
+    flex: auto;
+    height: 100px;
+    width: 100px;
 }
 
 .block-text{
+    display: flex;
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    justify-content: center;
 }
 
+.block-text :hover{
+    color: red;
+}
 /* Quote Section */
 
 .quote{
@@ -174,11 +180,10 @@
 
 /* Bottom Section */
 
-
 .banner-bottom{
     display: flex;
     flex-direction: column;
-    height: 100px;
+    height: 150px;
     justify-content: center;
 }
 
@@ -190,7 +195,8 @@
     padding-top: 10px;
     padding-bottom: 10px;
     align-items: center;
-    height: 50px;
+    height: 100px;
+    justify-content: space-between;
 }
 
 .banner-column-left{
@@ -201,7 +207,7 @@
 
 .banner_colum-right{
     display: flex;
-    align-items: center;
+    flex: 1 0 auto;
     justify-content: center;
 }
 
@@ -210,7 +216,9 @@
     color:#E5E7EB;
     background: blue;
     justify-content: center;
-    align-items: centers;
+    align-items: center;
+    border: 5px;
+    border-color: #F9FAF8;
 }
 
 /* Footer section */
