@@ -9,7 +9,15 @@
 .bold{
     font-weight: bold;
 }
-
+.padding-left{
+    padding-left: 15%;
+}
+.padding-right{
+    padding-right: 15%;
+}
+*{
+    margin: 0;
+}
 
 /* Header Section */
 
@@ -18,17 +26,17 @@
     background: #1F2937;
     height:40px; 
     color: #F9FAF8;
+    padding-top: 10px;
+    padding-left: 15%;
 }
-
 .header-logo{
     display: flex;
     font-size: 36px;
     font-style: bold;
     text-transform: uppercase;
     align-items: center;
-    margin-top: 10px;
+    padding-top: 10px;
 }
-
 .header-link{
     display: flex;
     flex: 1;
@@ -37,16 +45,14 @@
     justify-content: end;
     gap: 10px;
     align-items: center;
-    margin-top: 10px;
+    padding-top: 10px;
 }
 .header-link :hover{
     color: red;
 }
-
 .header-link div{
     padding: 25px;
 }
-
 
 /* Hero section */
 
@@ -60,12 +66,10 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
 .hero-left{
     display: flex;
     flex-direction: column;
 }
-
 .hero-left div{
     margin: 5px;
 }
@@ -84,7 +88,6 @@
     color: black;
     align-items: center;
 }
-
 .hero-button{
     display: flex;
     flex: 0 1 auto;
@@ -100,7 +103,6 @@
     border-radius: 5px;
     padding: 2px;
 }
-
 .hero-button :hover{
     color: darkblue;
     font-weight: bold;
@@ -115,7 +117,6 @@
     justify-content: center;
     height: 300px;
 }
-
 .information-header{
     display: flex;
     color: #1F2937;
@@ -125,36 +126,33 @@
     height: 50px;
     padding: 10px;
 }
-
 .information-blocks{
     display: flex;
     justify-content: space-between;
 }
-
 .content-block{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background: green;
 }
-
 .block-image{
     display: flex;
     flex: auto;
     height: 100px;
     width: 100px;
 }
-
 .block-text{
     display: flex;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     justify-content: center;
+    color: #F9FAF8;
 }
-
 .block-text :hover{
     color: red;
 }
+
 /* Quote Section */
 
 .quote{
@@ -166,17 +164,15 @@
     justify-content: center;
     align-items: end;
 }
-
 .quote-main{
     font-size: 36px;
     font-style: italic;
 }
-
 .quote-speaker{
     font-size: 25px;
     font-weight: bold;
+    padding-top: 10px;
 }
-
 
 /* Bottom Section */
 
@@ -186,7 +182,6 @@
     height: 150px;
     justify-content: center;
 }
-
 .call-to-action-block{
     display: flex;
     background: blue;
@@ -198,19 +193,16 @@
     height: 100px;
     justify-content: space-between;
 }
-
 .banner-column-left{
     display: flex;
     flex-direction: column;
     flex: auto; 
 }
-
 .banner_colum-right{
     display: flex;
     flex: 1 0 auto;
     justify-content: center;
 }
-
 .bottom-button{
     display: flex;
     color:#E5E7EB;
@@ -232,4 +224,19 @@
     height: 40px;
 }
 
+/* Gig section */
 
+.gig{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    background-color: grey;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.gig-info{
+    display: flex;
+    flex: auto;
+    font-weight: bold;
+    font-size: 20px;
+}
