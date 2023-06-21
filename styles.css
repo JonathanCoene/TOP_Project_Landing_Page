@@ -17,7 +17,18 @@
 }
 *{
     margin: 0;
+    font-family: Calibri;
 }
+
+a:link{
+    color: #F9FAF8;
+    text-decoration: none;
+}
+a:visited{
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
 
 /* Header Section */
 
@@ -67,7 +78,7 @@
     padding-bottom: 50px;
 }
 .hero-left{
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
 }
 .hero-left div{
@@ -89,7 +100,7 @@
     align-items: center;
 }
 .hero-button{
-    display: flex;
+    display: inline-flex;
     flex: 0 1 auto;
     color: white;
     background: blue;
@@ -97,7 +108,7 @@
     width: 75px;
     height: 20px;
     border-color: whitesmoke;
-    border-width: 3px;
+    border-width: 10px;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
@@ -172,6 +183,7 @@
     font-size: 25px;
     font-weight: bold;
     padding-top: 10px;
+    margin-right: 50px;
 }
 
 /* Bottom Section */
