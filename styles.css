@@ -108,13 +108,13 @@ a:visited{
     width: 75px;
     height: 20px;
     border-color: whitesmoke;
-    border-width: 10px;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 2px;
+    border: solid;
 }
-.hero-button :hover{
+.hero-button:hover{
     color: darkblue;
     font-weight: bold;
     background: lightblue;
@@ -224,10 +224,19 @@ a:visited{
     background: blue;
     justify-content: center;
     align-items: center;
-    border: 5px;
+    border: solid;
+    border-radius: 15px;
     border-color: #F9FAF8;
+    width: 75px;
+    height: 25px;
 }
 
+.bottom-button:hover{
+    font:black;
+    font-weight: bold;
+    background: lightblue;
+    color: darkblue;
+}
 /* Footer section */
 
 .footer{
