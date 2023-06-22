@@ -205,6 +205,8 @@ a:visited{
     align-items: center;
     height: 100px;
     justify-content: space-between;
+    border-radius: 25px;
+    border: solid;
 }
 .banner-column-left{
     display: flex;
