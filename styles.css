@@ -18,7 +18,6 @@
 *{
     margin: 0;
     font-family: Calibri;
-    border: solid;
 }
 
 a:link{
@@ -53,17 +52,19 @@ a:visited{
     display: flex;
     flex: 1;
     font-style: bold;
+    font-size: 18px;
     text-transform: uppercase;
     justify-content: end;
     gap: 10px;
     align-items: center;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 .header-link :hover{
     color: red;
 }
 .header-link div{
-    padding: 25px;
+    padding: 5px;
 }
 
 /* Hero section */
