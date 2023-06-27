@@ -184,7 +184,7 @@ a:visited{
 }
 .block-text{
     display: flex;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', monospace;
     font-weight: bold;
     justify-content: center;
     color: #F9FAF8;
@@ -292,4 +292,8 @@ a:visited{
     flex: auto;
     font-weight: bold;
     font-size: 20px;
+}
+
+.gig div{
+    height: 50px;
 }
